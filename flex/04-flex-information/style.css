@@ -1,5 +1,40 @@
+.header {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.info {
+  display:flex;
+  gap:52px;
+  justify-content: space-evenly;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+}
+.barb {
+  display:flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.chili {
+  display:flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.pepper {
+  display:flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.saffron {
+  display:flex;
+  flex-wrap: wrap;
+  width: 200px;
 }
 
 img {
@@ -11,6 +46,8 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+
+
 
 /* do not edit this footer */
 .footer {
